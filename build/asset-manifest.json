@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0539ef71.css",
+    "main.js": "/static/js/main.b3bae0f3.js",
+    "static/media/home.jpg": "/static/media/home.dcb2c14a96b954cb0b94.jpg",
+    "static/media/services.jpg": "/static/media/services.3de8efae226ab3a30b70.jpg",
+    "static/media/about.jpg": "/static/media/about.1c8a81373f650ddfc795.jpg",
+    "static/media/testimonial.jpg": "/static/media/testimonial.19a2a77a4f9aca19bb95.jpg",
+    "static/media/contact.jpg": "/static/media/contact.f4e1e45e84857f62b89e.jpg",
+    "static/media/team.jpg": "/static/media/team.8b235bb8e3a28d8a52e9.jpg",
+    "static/media/Paul Dimitrov.jpeg": "/static/media/Paul Dimitrov.ced6f7940419584bcc42.jpeg",
+    "static/media/Kathy Howell.jpeg": "/static/media/Kathy Howell.8a39e4f384c1a7c80ec1.jpeg",
+    "static/media/Andrew Harrison.jpeg": "/static/media/Andrew Harrison.fd91f09268a2738ad74e.jpeg",
+    "static/media/Joyce Barney.jpeg": "/static/media/Joyce Barney.0d6d80582c6384ba99ac.jpeg",
+    "index.html": "/index.html",
+    "main.0539ef71.css.map": "/static/css/main.0539ef71.css.map",
+    "main.b3bae0f3.js.map": "/static/js/main.b3bae0f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0539ef71.css",
+    "static/js/main.b3bae0f3.js"
+  ]
+}
