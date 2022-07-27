@@ -1,0 +1,109 @@
+.navigation {
+	background-color: whitesmoke;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	align-items: center;
+	padding: 0.5rem 0rem;
+	color: #ffffff;
+}
+
+.nav-logo {
+	text-decoration: none;
+	color: #234d58;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	font-family: 'Garamond', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 1000;
+}
+
+.navigation-menu {
+	margin-left: auto;
+}
+
+.navigation-menu ul {
+	display: flex;
+	padding-top: 20px;
+	padding-right: 30px;
+}
+
+.navigation-menu li {
+	list-style-type: none;
+	margin: 0 1rem;
+}
+
+.navigation-menu li a {
+	text-decoration: none;
+	font-size: large;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	font-weight: lighter;
+	color: #234d58;
+	display: block;
+	width: 100%;
+}
+
+.navigation-menu li a:hover {
+	border-bottom: 4px solid #234d58;
+	transition: all 0.2s ease-out;
+}
+
+.icon-button {
+	border: 0;
+	height: 40px;
+	width: 40px;
+	padding: 0.5rem;
+	border-radius: 50%;
+	background-color: #234d58;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	transform: translateY(-50%);
+	display: none;
+}
+
+.icon-button:hover {
+	background-color: #52ab98;
+}
+
+@media screen and (max-width: 768px) {
+	.icon-button {
+		display: block;
+	}
+
+	.navigation-menu ul {
+		position: absolute;
+		top: 60px;
+		left: 0;
+		flex-direction: column;
+		width: 100%;
+		height: calc(100vh - 77px);
+		background-color: #234d58;
+		border-top: 1px solid black;
+		display: none;
+	}
+
+	.navigation-menu li {
+		text-align: center;
+		margin: 0;
+	}
+
+	.navigation-menu li a {
+		color: whitesmoke;
+		width: 100%;
+		padding: 1.5rem 0;
+	}
+
+	.navigation-menu li:hover {
+		background-color: #52ab98;
+	}
+
+	.navigation-menu.expanded ul {
+		display: block;
+	}
+}
