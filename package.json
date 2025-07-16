@@ -12,7 +12,6 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.21.2",
     "fg-loadcss": "^3.1.0",
-    "muicss": "^0.10.3",
     "pure-react-carousel": "^1.28.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
