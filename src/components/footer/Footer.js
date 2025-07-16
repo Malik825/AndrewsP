@@ -42,7 +42,7 @@ function Footer() {
 					}}
 				>
 					<div className='copyright'>
-						© 2022 Andy & Harri PLLC | All Rights Reserved | Sitemap Disclaimer
+						© 2025 Andy & Harri PLLC | All Rights Reserved | Sitemap Disclaimer
 					</div>
 				</Box>
 			</Box>

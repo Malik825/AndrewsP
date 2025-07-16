@@ -13,7 +13,6 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.21.2",
-    "carousel-react-rcdev": "0.0.4",
     "fg-loadcss": "^3.1.0",
     "muicss": "^0.10.3",
     "pure-react-carousel": "^1.28.1",
